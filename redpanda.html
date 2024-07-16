@@ -2,14 +2,42 @@
 <head>
     <title>ZZHANGURI</title>
     <meta charset="utf-8">
+    <style>
+        h1{
+            font-size: 250%;
+            text-align: center;
+            border-bottom: 2px solid gray;
+            padding: 30px;
+            margin: 0;
+        }
+        ol{
+            font-size: 150%;
+            border-right: 2px solid gray;
+            margin: 0;
+            width: 160px;
+            padding: 40px;
+        }
+        #grid{
+      display: grid;
+      grid-template-columns: 250px 1fr;
+    }
+    #grid ol{
+      padding-left:100px;
+    }
+    #grid #article{
+      padding-left:100px;
+    }
+    </style>
 </head>
 <body>
     <h1>ZZHANGURI</h1>
-    <ol style="margin-top: 40px;">
+    <div id="grid">
+    <ol>
        <strong><a href="index.html"><li>neoguri</li></a>
         <a href="raccoon.html"><li>raccoon</li></a>
         <a href="redpanda.html"><li>redpanda</li></strong></a>
     </ol>
+    <div id="article">
     <p style="margin-top: 40px;"><h2>redpanda</h2></p>
     원래 '판다'란 말 자체가 이 레서판다에게 붙은 이름이다. <br>
     그러나 자이언트 판다가 더 유명해지면서 자이언트 판다를 '판다'라 부르고, 원조 판다는 작은 판다라는 뜻의 '레서판다'로 부르게 되었다.<br>
@@ -21,5 +49,7 @@
     <p><strong>참고로 아기 레서판다는 정말 귀엽다.<br> 검은 먼지땡이 같이 생김.</strong></p>
     <img src="https://img.animalplanet.co.kr/news/2019/12/06/700/0010a75i21ykos966s31.jpg" width="50%">
     <strong>머리 짱 커ㅜㅜ 귀여움</strong>
+    </div>
+    </div>
 </body>
 </html>
